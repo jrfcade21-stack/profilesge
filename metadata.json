@@ -1,0 +1,8 @@
+{
+  "name": "Profiles Group 20260203-key",
+  "description": "Sitio web corporativo para Profiles Group, empresa de Recursos Humanos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
