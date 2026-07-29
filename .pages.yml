@@ -4,7 +4,7 @@ media:
 collections:
   - name: Noticias / News
     id: noticias
-    type: file
+    type: list
     path: public/noticias.json
     format: json
     schema:
