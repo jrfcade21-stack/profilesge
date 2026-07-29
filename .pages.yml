@@ -1,0 +1,62 @@
+media:
+  input: public
+  output: /public
+collections:
+  - name: Noticias / News
+    id: noticias
+    type: file
+    path: public/noticias.json
+    format: json
+    schema:
+      - name: Artículos en Español
+        id: es
+        type: object
+        list: true
+        schema:
+          - name: ID de la Noticia (ej. liderazgo-2026)
+            id: id
+            type: string
+          - name: Título
+            id: titulo
+            type: string
+          - name: Fecha
+            id: fecha
+            type: string
+          - name: Categoría
+            id: categoria
+            type: string
+          - name: Resumen Corto
+            id: resumen
+            type: text
+          - name: Contenido Completo de la Nota
+            id: contenido_completo
+            type: rich-text
+          - name: Enlace de la Imagen (Unsplash)
+            id: imagen_url
+            type: string
+      - name: Articles in English
+        id: en
+        type: object
+        list: true
+        schema:
+          - name: News ID (e.g., leadership-2026)
+            id: id
+            type: string
+          - name: Title
+            id: titulo
+            type: string
+          - name: Date
+            id: fecha
+            type: string
+          - name: Category
+            id: categoria
+            type: string
+          - name: Short Summary
+            id: resumen
+            type: text
+          - name: Full Content
+            id: contenido_completo
+            type: rich-text
+          - name: Image URL (Unsplash)
+            id: imagen_url
+            type: string
